@@ -211,3 +211,20 @@ box-shadow:
 .nav-links a:hover {
   color: #00F5FF;
 }
+.stat {
+  transition: 0.4s;
+}
+
+.stat:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 0 30px #8b5cf6;
+}
+.footer {
+  text-align: center;
+  padding: 40px;
+  margin-top: 50px;
+
+  border-top: 1px solid rgba(255,255,255,0.1);
+
+  color: #cbd5e1;
+}

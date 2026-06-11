@@ -86,30 +86,33 @@ return ( <div className="app">
   </section>
 
   <section className="section">
-    <h2>Achievements</h2>
+  <h2>Achievements</h2>
 
-    <div className="stats">
-      <div className="stat">
-        <h1>3+</h1>
-        <p>Major Projects</p>
-      </div>
+  <div className="stats">
 
-      <div className="stat">
-        <h1>10+</h1>
-        <p>Technologies</p>
-      </div>
-
-      <div className="stat">
-        <h1>2+</h1>
-        <p>AI Systems</p>
-      </div>
-
-      <div className="stat">
-        <h1>1000+</h1>
-        <p>Hours Coding</p>
-      </div>
+    <div className="stat">
+      <h1>4+</h1>
+      <p>Major Projects</p>
     </div>
-  </section>
+
+    <div className="stat">
+      <h1>10+</h1>
+      <p>Technologies</p>
+    </div>
+
+    <div className="stat">
+      <h1>2+</h1>
+      <p>AI Systems</p>
+    </div>
+
+    <div className="stat">
+      <h1>1000+</h1>
+      <p>Hours Coding</p>
+    </div>
+
+  </div>
+</section>
+  
 
   {/* EDUCATION */}
 
@@ -155,6 +158,38 @@ return ( <div className="app">
       <li>Created real-time monitoring applications</li>
     </ul>
 
+  </div>
+</section>
+<section className="section">
+  <h2>Journey Timeline</h2>
+
+  <div className="card">
+    <h3>2025</h3>
+    <p>Machine Learning Internship</p>
+  </div>
+
+  <br />
+
+  <div className="card">
+    <h3>2025</h3>
+    <p>Developed Vigilant Eye 2.0</p>
+  </div>
+
+  <br />
+
+  <div className="card">
+    <h3>2026</h3>
+    <p>Developed Soil Sentinel AI</p>
+  </div>
+
+  <br />
+
+
+  <br />
+
+  <div className="card">
+    <h3>2026</h3>
+    <p>Built Personal Portfolio Website</p>
   </div>
 </section>
   {/* TECH STACK */}
@@ -289,6 +324,22 @@ return ( <div className="app">
 </p>
   </div>
 </section>
+<footer className="footer">
+  <h3>Aditya Purohit A</h3>
+
+  <p>
+    AI Developer • Machine Learning Engineer • Python Developer
+  </p>
+
+  <p>
+    Building intelligent systems using Artificial Intelligence,
+    Computer Vision and Machine Learning.
+  </p>
+
+  <br />
+
+  <p>© 2026 All Rights Reserved</p>
+</footer>
 
 </div>
 
