@@ -4,18 +4,6 @@ import VigilantEye from "./pages/VigilantEye";
 import SoilSentinel from "./pages/SoilSentinel";
 
 function Home() {
-const skills = [
-"Python",
-"Machine Learning",
-"OpenCV",
-"YOLOv8",
-"MySQL",
-"React",
-"HTML/CSS",
-"GitHub",
-"Tkinter",
-"CustomTkinter"
-];
 
 const projects = [
 {
