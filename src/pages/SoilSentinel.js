@@ -55,7 +55,7 @@ margin: "auto",
 <div style={{ display: "flex", gap: "15px", marginTop: "20px" }}>
 
   <a
-    href="/soil-sentinel.pdf"
+    href="/SoilSentinel.pdf"
     target="_blank"
     rel="noreferrer"
     className="btn"

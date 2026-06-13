@@ -106,7 +106,7 @@ return ( <div className="app">
     </div>
 
     <div className="stat">
-      <h1>1000+</h1>
+      <h1>100+</h1>
       <p>Hours Coding</p>
     </div>
 
@@ -114,7 +114,7 @@ return ( <div className="app">
 </section>
   
 
-  {/* EDUCATION */}
+ 
 
 <section id="education" className="section">
   <h2>Education</h2>
@@ -134,7 +134,7 @@ return ( <div className="app">
   </div>
 </section>
 
-  {/* EXPERIENCE */}
+  
 
 <section id="experience" className="section">
   <h2>Internship Experience</h2>
@@ -206,6 +206,7 @@ return ( <div className="app">
         <li>React</li>
         <li>HTML</li>
         <li>CSS</li>
+        <li>JavaScript</li>
       </ul>
     </div>
 
@@ -215,6 +216,9 @@ return ( <div className="app">
       <ul>
         <li>Python</li>
         <li>MySQL</li>
+        <li>PSQL</li>
+        <li>MongoDB</li>
+        <li>Java</li>
       </ul>
     </div>
 
@@ -225,6 +229,9 @@ return ( <div className="app">
         <li>Machine Learning</li>
         <li>YOLOv8</li>
         <li>OpenCV</li>
+        <li>Data Analytics</li>
+        <li>Scikit-Learn</li>
+        <li>TensorFlow</li>
       </ul>
     </div>
 
