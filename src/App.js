@@ -2,6 +2,7 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import VigilantEye from "./pages/VigilantEye";
 import SoilSentinel from "./pages/SoilSentinel";
+import HousePricePrediction from "./pages/HousePricePrediction";
 
 function Home() {
 
@@ -285,11 +286,22 @@ return ( <div className="app">
       >
         View Project
       </button>
+    
+    ) : project.title === "House Price Prediction" ? (
+      <button
+        className="btn"
+        onClick={() => window.location.href = "/house-price-prediction"}
+      >
+        View Project
+      </button>
+    
     ) : (
+
       <button className="btn">
         View Project
       </button>
-    )}
+    ) 
+    }
   </div>
 ))}
 ```
@@ -355,11 +367,16 @@ return ( <div className="app">
 }
 
 function App() {
-return ( <Routes>
-<Route path="/" element={<Home />} />
-<Route path="/vigilant-eye" element={<VigilantEye />} />
-<Route path="/soil-sentinel" element={<SoilSentinel />} /> </Routes>
-);
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/vigilant-eye" element={<VigilantEye />} />
+      <Route path="/soil-sentinel" element={<SoilSentinel />} />
+      <Route
+        path="/house-price-prediction"
+        element={<HousePricePrediction />}
+      />
+    </Routes>
+  );
 }
-
 export default App;
