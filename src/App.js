@@ -71,7 +71,7 @@ return ( <div className="app">
         View Projects
       </a>
 
-      <a href="/resume.pdf" className="btn" download>
+      <a href="/Adityaresume.pdf" className="btn" download>
         Download Resume
       </a>
     </div>
